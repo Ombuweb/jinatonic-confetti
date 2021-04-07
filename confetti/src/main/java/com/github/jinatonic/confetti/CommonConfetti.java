@@ -71,8 +71,7 @@ public class CommonConfetti {
             ConfettiSource confettiSource, int[] colors) {
         final CommonConfetti commonConfetti = new CommonConfetti(container);
         commonConfetti.configureRainingConfetti(container, confettiSource, colors);
-        System.out.println("Confetti container");
-        System.out.println(container);
+       Log.i("Hi there Confetti in Java");
         return commonConfetti;
     }
 
